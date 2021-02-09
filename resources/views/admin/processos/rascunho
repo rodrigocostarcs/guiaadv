@@ -1,0 +1,403 @@
+@extends('adminlte::page')
+
+@section('title','Criar novo processo')
+
+@section('content_header')
+    <h1>Processo 10126</h1> 
+@endsection
+
+@section('content')
+<div class="container-fluid">
+    <div class="row">
+      <!-- /.col -->
+      <div class="col-md-9">
+        <div class="card">
+          <div class="card-header p-2">
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a class="nav-link active" href="#partes" data-toggle="tab">Partes</a></li>
+              <li class="nav-item"><a class="nav-link" href="#prazos" data-toggle="tab">Prazos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#despesas" data-toggle="tab">Despesas e Honorários</a></li>
+              <li class="nav-item"><a class="nav-link" href="#compromissos" data-toggle="tab">Compromissos</a></li>
+            </ul>
+          </div><!-- /.card-header -->
+
+          <div class="card-body">
+            <div class="tab-content">
+              <div class="active tab-pane" id="partes">
+                
+
+                <!-- Post Cliente-->
+                <div class="post">
+                  <div class="user-block">
+                    
+                    <span class="username">
+                      <a href="#">Clientes</a>
+                      <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+                    </span>
+                    <span class="description">Adicione o cliente que vai fazer parte desse processo</span>
+                  </div>
+                  <!-- /.user-block -->
+                  <p>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                          
+                          <select name="" class="form-control" id="">
+                              <option value="" disabled selected>selecionar cliente</option>
+                              <option value="">Rodrigo</option>
+                              <option value="">Karol</option>
+                              <option value="">Match</option>
+                          </select>
+                        </div>
+                    </div>
+                  </p>
+                </div>
+                <!-- /.post -->
+
+                <!-- Post Cliente-->
+                <div class="post">
+                    <div class="user-block">
+                      
+                      <span class="username">
+                        <a href="#">Advogados</a>
+                        <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+                      </span>
+                      <span class="description">Qual advogado vai fazer parte desse processo</span>
+                    </div>
+                    <!-- /.user-block -->
+                    <p>
+                      <div class="form-group row">
+                          <div class="col-sm-10">
+                            <select name="" class="form-control" id="">
+                                <option>Alabama</option>
+                                <option>Alaska</option>
+                                <option>California</option>
+                                <option>Delaware</option>
+                                <option>Tennessee</option>
+                                <option>Texas</option>
+                                <option>Washington</option>
+                              </select>
+                          </div>
+                      </div>
+                    </p>
+  
+                  </div>
+                  <!-- /.post -->
+
+                <!-- Post Cliente-->
+                <div class="post">
+                    <div class="user-block">
+                      
+                      <span class="username">
+                        <a href="#">Testemunhas</a>
+                        <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+                      </span>
+                      <span class="description">Quais Testemunhas fazem parte deste processo</span>
+                    </div>
+                    <!-- /.user-block -->
+                    <p>
+                      <div class="form-group row">
+                          <div class="col-sm-10">
+                            <select name="" class="form-control" id="">
+                                <option>Alabama</option>
+                                <option>Alaska</option>
+                                <option>California</option>
+                                <option>Delaware</option>
+                                <option>Tennessee</option>
+                                <option>Texas</option>
+                                <option>Washington</option>
+                              </select>
+                          </div>
+                      </div>
+                    </p>
+  
+                  </div>
+                  <!-- /.post -->
+
+                  <!-- Post Cliente-->
+                <div class="post">
+                    <div class="user-block">
+                      
+                      <span class="username">
+                        <a href="#">Parte Contrária</a>
+                        <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+                      </span>
+                      <span class="description">Selecione a parte contrária do processo</span>
+                    </div>
+                    <!-- /.user-block -->
+                    <p>
+                      <div class="form-group row">
+                          <div class="col-sm-10">
+                            <select name="" class="form-control" id="">
+                                <option>Alabama</option>
+                                <option>Alaska</option>
+                                <option>California</option>
+                                <option>Delaware</option>
+                                <option>Tennessee</option>
+                                <option>Texas</option>
+                                <option>Washington</option>
+                              </select>
+                          </div>
+                      </div>
+                    </p>
+  
+                  </div>
+                  <!-- /.post -->
+
+                  <!-- Post Cliente-->
+                <div class="post">
+                    <div class="user-block">
+                      
+                      <span class="username">
+                        <a href="#">Advogado da Parte Contrária</a>
+                        <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
+                      </span>
+                      <span class="description">Qual advogado da parte contrária vai fazer parte desse processo</span>
+                    </div>
+                    <!-- /.user-block -->
+                    <p>
+                      <div class="form-group row">
+                          <div class="col-sm-10">
+                            <select name="" class="form-control" id="">
+                                <option>Alabama</option>
+                                <option>Alaska</option>
+                                <option>California</option>
+                                <option>Delaware</option>
+                                <option>Tennessee</option>
+                                <option>Texas</option>
+                                <option>Washington</option>
+                            </select>
+                          </div>
+                      </div>
+                    </p>
+  
+                  </div>
+                  <!-- /.post -->
+                
+              </div>
+              <!-- /.tab-pane -->
+              <div class="tab-pane" id="prazos">
+                <!-- The timeline -->
+                <div class="timeline timeline-inverse">
+                  <div>
+                    <div class="timeline-item">
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                                <label for="">Data início do Prazo</label>
+                                <input type="date" class="form-control" id="inputName" placeholder="1º vara regional..">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                          <div class="col-sm-10">
+                              <label for="">Quantos dias deseja adicionar?</label>
+                              <input type="number" class="form-control" id="inputName" placeholder="digite o valor">
+                          </div>
+                      </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                                <label for="">Observações</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Recurso..">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- END timeline item -->
+                  <div>
+                    <i class="far fa-clock bg-gray"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- /.tab-pane -->
+
+              <!-- /.tab-pane -->
+              <div class="tab-pane" id="despesas">
+                <!-- The timeline -->
+                <div class="timeline timeline-inverse">
+                  <div>
+                    <div class="timeline-item">
+                      
+                      <div class="form-group row">
+                        <div class="col-sm-10">
+                            <label for="">Tipo</label>
+                            <select name=""  class="form-control" id="">
+                              <option value="" disabled selected>tipo de operação</option>
+                              <option value="R">À receber </option>
+                              <option value="P">À pagar</option>
+                            </select>
+                        </div>
+                      </div>
+
+                      <div class="form-group row">
+                        <div class="col-sm-10">
+                            <label for="">Data da Operação</label>
+                            <input type="date" class="form-control">
+                        </div>
+                      </div>
+
+                      <div class="form-group row">
+                        <div class="col-sm-10">
+                            <label for="">Valor da movimentação</label>
+                            <input type="text" class="form-control">
+                        </div>
+                      </div>
+
+                      <div class="form-group row">
+                        <div class="col-sm-10">
+                            <label for="">Descrição</label>
+                            <textarea name="" class="form-control" id="" cols="30" rows="10"></textarea>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <!-- END timeline item -->
+                  <div>
+                    <i class="far fa-clock bg-gray"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- /.tab-pane -->
+
+              <div class="tab-pane" id="compromissos">
+                <!-- The timeline -->
+                <div class="timeline timeline-inverse">
+                    <div>
+                      <div class="timeline-item">
+                          <div class="form-group row">
+                              <div class="col-sm-10">
+                                  <label for="">Data do Compromisso</label>
+                                  <input type="date" class="form-control" name="">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <div class="col-sm-10">
+                                  <label for="">Horário de início do compromisso</label>
+                                  <input type="time" class="form-control" id="inputName">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <div class="col-sm-10">
+                                <label for="">Horário do fim do compromisso</label>
+                                <input type="time" class="form-control" id="inputName">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                            <div class="col-sm-10">
+                              <label for="">Descrição do compromisso</label>
+                              <textarea name="" id="" cols="30" class="form-control" id="inputName"rows="10"></textarea>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END timeline item -->
+                    <div>
+                      <i class="far fa-clock bg-gray"></i>
+                    </div>
+                  </div>
+              </div>
+              <!-- /.tab-pane -->
+            </div>
+            <!-- /.tab-content -->
+          </div><!-- /.card-body -->
+        </div>
+        <!-- /.nav-tabs-custom -->
+      </div>
+      <!-- /.col -->
+
+      <div class="col-md-3">
+        <!-- About Me Box -->
+        <div class="card card-primary">
+          <div class="card-header">
+            <h3 class="card-title">{{$processo->numero_processo}}</h3>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body">
+            <strong><i class="fas fa-book mr-1"></i>Cliente</strong>
+    
+            <p class="text-muted">
+              Nome do Cliente
+            </p>
+    
+            <hr>
+    
+            <strong><i class="fas fa-map-marker-alt mr-1"></i>Advogado</strong>
+    
+            <p class="text-muted">Nome do Advogado</p>
+    
+            <hr>
+    
+            <strong><i class="fas fa-pencil-alt mr-1"></i>Testemunha(s)</strong>
+    
+            <p class="text-muted">
+              <span class="tag tag-danger">Fulano</span>
+              <span class="tag tag-success">Fulano</span>
+              <span class="tag tag-info">Fulano</span>
+              <span class="tag tag-warning">Fulano</span>
+              <span class="tag tag-primary">Fulano</span>
+            </p>
+    
+            <hr>
+    
+            <strong><i class="far fa-file-alt mr-1"></i>Contrários</strong>
+    
+            <p class="text-muted">
+              <span class="tag tag-danger">Fulano</span>
+              <span class="tag tag-success">Fulano</span>
+              <span class="tag tag-info">Fulano</span>
+              <span class="tag tag-warning">Fulano</span>
+              <span class="tag tag-primary">Fulano</span>
+            </p>
+
+            <strong><i class="far fa-file-alt mr-1"></i>Valor da Ação</strong>
+    
+            <p class="text-muted">
+              <span class="tag tag-danger">R$ {{$processo->valor}}</span>
+            </p>
+
+            <strong><i class="far fa-file-alt mr-1"></i>Data de encerramento</strong>
+
+            <p class="text-muted">
+              <span class="tag tag-danger">{{\Carbon\Carbon::parse($processo->data_encerramento)->format('d/m/Y')}}</span>
+            </p>
+
+            <strong><i class="far fa-file-alt mr-1"></i>Área do Processo e Tipo de ação</strong>
+
+            <p class="text-muted">
+              <span class="tag tag-danger">{{$processo->area_processo}} - {{$processo->tipo_acao}}</span>
+            </p>
+
+            <strong><i class="far fa-file-alt mr-1"></i>Observações</strong>
+
+            <p class="text-muted">
+              <span class="tag tag-danger">{{$processo->observacao_processo}}</span>
+            </p>
+
+
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+      </div>        
+          </div>
+
+
+
+    </div>
+    <!-- /.row -->
+  </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->
+</div>
+
+
+<!-- jQuery -->
+<script src="{{asset('assets/plugins/jquery/jquery.min.js')}}"></script>
+<!-- Bootstrap 4 -->
+<script src="{{asset('assets/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<!-- AdminLTE App -->
+<script src="{{asset('assets/dist/js/adminlte.min.js')}}"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="{{asset('assets/dist/js/demo.js')}}"></script>
+
+@endsection
+
